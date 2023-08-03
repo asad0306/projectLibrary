@@ -77,6 +77,8 @@ label {
     display: flex;
     text-align: center;
     padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .book-card {
