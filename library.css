@@ -13,7 +13,7 @@
 #new-book-btn {
     display: block;
     margin: 0 auto;
-    background-color: rgb(4, 53, 84);
+    background-color: rgb(39, 125, 178);
     border-radius: 10%;
     color: rgb(154, 199, 86);
     padding: 20px;
@@ -31,13 +31,15 @@ form {
     border: 2px solid rgb(89, 50, 50);
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(171, 221, 77);
 }
 input[type="text"],
 input[type="number"],
 select {
     width: 90%;
     padding: 12px;
-    font-size: 16px;
+    font-size: 26px;
+    font-weight: bold;
     margin-top: 8px;
     border: 1px solid seagreen;
     border-radius: 5px;
@@ -54,10 +56,21 @@ select:focus {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);    
 }
 
+.addBtn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);    
+}
+
 label {
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: bold;
     margin-bottom: 10px;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 #library {
